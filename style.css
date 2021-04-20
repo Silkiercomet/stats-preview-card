@@ -32,6 +32,8 @@ body{
 .right{
     width: 100%;
     height: 100%;
+    background-blend-mode: multiply;
+    background-color: hsl(277, 64%, 61%);;
     background-image: url(images/image-header-desktop.jpg);
     background-position: center;
     object-fit: fill;
@@ -40,7 +42,7 @@ body{
     border-top-right-radius: 5px;
     position: relative;
 }
-.layer{
+/* .layer{
     background: hsla(277, 64%, 61%,0.6);
     position: absolute;
     top: 0;
@@ -49,7 +51,7 @@ body{
     height: 100%;
     border-bottom-right-radius:5px ;
     border-top-right-radius: 5px;
-}
+} */
 .left {
     margin-right: 2rem;
     
